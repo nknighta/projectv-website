@@ -1,0 +1,9 @@
+# directories
+node_modules/
+.next/
+.idea/
+
+# files
+*.log
+*.lock
+*.env
