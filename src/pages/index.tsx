@@ -1,5 +1,6 @@
 import HMenu from "../component/HeaderMenu/Menu";
 import {Text,Box,Flex} from "@chakra-ui/react";
+import Dynamic from "../lib/dynamic";
 
 export default function Index() {
     return (
@@ -8,7 +9,7 @@ export default function Index() {
                 color: "#fff",
             }}>
                 <Flex justifyContent={"center"}>
-                    <Flex w={"70vh"} height={"20em"} alignItems={"center"} bgColor={""} m={10}>
+                    <Flex w={"70vh"} height={"20em"} alignItems={"center"} bgColor={""} m={10} >
                         <Text fontSize={40} style={{
                             fontWeight: "bold"
                         }}>Useful API and Library for Web3&Web5 Developers</Text>
@@ -26,7 +27,7 @@ export default function Index() {
                     width: 900,
                     height: 400,
                     backgroundColor: "#ff2200",
-                    marginTop: "16vh"
+                    marginTop: 80,
                 }}>
                     <Box display={"flex"} justifyContent={"center"} p={10}>
                         <Text fontSize={37}>Hello!</Text>

@@ -4,23 +4,20 @@ import {useDefaultUrl} from "../server/config";
 import Link from "next/link";
 import {Box, Flex, Text} from "@chakra-ui/react";
 import {ExternalLinkIcon, WarningIcon} from "@chakra-ui/icons";
+import {getWindowSize} from "../component/ResponseMenuTest/container";
 
 interface Props<T> {
     data: string[];
     minWidth: number;
 }
 
-
-function HeaderElement() {
+const Links = () =>{
+    const {width} = getWindowSize();
     return (
-        <div style={{
-            display: "flex",
-            justifyContent: "flex-end",
-            alignItems: "center",
-        }}>
+        <>
 
-        </div>
-    )
+        </>
+    );
 };
 
 function Docs() {
